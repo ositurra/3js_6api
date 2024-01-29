@@ -5,15 +5,15 @@
 
 .container{
     background-color: rgb(33, 37, 41);
-    width: 600px;
-    height: 85vh;
+    width: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
-.container .section1 h1{
+h1,h2,h3{
     color: white;
 }
 .container .section1 hr{
@@ -22,11 +22,33 @@
     border: 0;
 }
 
-.section2{
+.section23{
     background-color: rgb(108, 117, 125);
-    width: 400px;
-    height: 70vh;
+    width: 300px;
+    height: 40vh;
     margin: 20px;
     border-radius: 5px;
-    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section23 input, #listaDesplegable {
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+}
+
+button{
+    margin: 15px;
+    width: 200px;
+    height: 25px;
+    color: white;
+    background-color: rgb(13, 202, 240);
+    border: none;
+    border-radius: 3px;
+
 }
